@@ -4,7 +4,7 @@
   <title><![CDATA[Podio Hacks]]></title>
   <link href="http://PodioHacks.github.com/atom.xml" rel="self"/>
   <link href="http://PodioHacks.github.com/"/>
-  <updated>2013-04-05T00:58:50+09:00</updated>
+  <updated>2013-04-05T20:10:52+09:00</updated>
   <id>http://PodioHacks.github.com/</id>
   <author>
     <name><![CDATA[CHIKURA Shinsaku]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Podioへのサインアップ・ログイン]]></title>
+    <link href="http://PodioHacks.github.com/blog/2013/04/getting-started/"/>
+    <updated>2013-04-05T19:28:00+09:00</updated>
+    <id>http://PodioHacks.github.com/blog/2013/04/getting-started</id>
+    <content type="html"><![CDATA[<h2>ログイン</h2>
+
+<p>Podioを利用するにはユーザ登録が必要です。ユーザ登録はPodioでサインアップして作ることができます。それ以外にも、Google、Facebook、Microsoft Live, GoToMeetingを使ってログインすることができます。</p>
+
+<p><img src="http://PodioHacks.github.com/images/podio-login.png" alt="Login" /></p>
+
+<h2>サインアップ</h2>
+
+<p>サインアップもほぼ同じ画面ですが、メールアドレスを入力し、届いたメールに書かれたリンクをクリックして手続きを進めます。</p>
+
+<p><img src="http://PodioHacks.github.com/images/signup.png" alt="Signup" /></p>
+
+<h3>Googleアカウント</h3>
+
+<p>登録時にgmail.comを入力すると、Googleのサービスと連携するかどうかを聞かれます。連動する場合はConnectをクリックし、Googleアカウント側からPodioとの連動を設定します。</p>
+
+<p><img src="http://PodioHacks.github.com/images/google-connect.png" alt="Googleサービスとの接続" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PodioHacksへようこそ]]></title>
