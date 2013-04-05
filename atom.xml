@@ -4,7 +4,7 @@
   <title><![CDATA[Podio Hacks]]></title>
   <link href="http://PodioHacks.github.com/atom.xml" rel="self"/>
   <link href="http://PodioHacks.github.com/"/>
-  <updated>2013-04-05T20:51:42+09:00</updated>
+  <updated>2013-04-05T21:55:21+09:00</updated>
   <id>http://PodioHacks.github.com/</id>
   <author>
     <name><![CDATA[CHIKURA Shinsaku]]></name>
@@ -12,6 +12,87 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Podioに出てくる用語]]></title>
+    <link href="http://PodioHacks.github.com/blog/2013/04/glossary/"/>
+    <updated>2013-04-05T21:29:00+09:00</updated>
+    <id>http://PodioHacks.github.com/blog/2013/04/glossary</id>
+    <content type="html"><![CDATA[<p>Podioの中に出てくる用語を説明します。</p>
+
+<h2>Organization / 組織</h2>
+
+<p>Organizationは「組織」です。
+メールアドレスの右側がOrganizationの単位になります。
+Podioでは1人が複数のメールアドレスを登録でき、それぞれにOrganizationが割り当てられます。
+(gmail.comなどの汎用的ドメインは除外されるようです)</p>
+
+<h2>Workspace / ワークスペース</h2>
+
+<p>WorkspaceはOrganizationの中に作られるグループです。
+Organizationを作ると、Employee NetworkというWorkspaceが作られます。
+フリー版ではこの情報を編集することはできません。
+Workspaceはいくつでも作ることができます。
+Workspace毎にどういうメンバーを参加させるかを決めることができますが、Employee Networkについては、フリー版の場合、すべてのメンバーになります。</p>
+
+<h2>Inbox</h2>
+
+<p>Inboxは個人宛に届いた通知です。
+メールやFaebookのメッセージと同じようなものです。</p>
+
+<h2>Contact(関係者)</h2>
+
+<p>Contactsは自分が参加しているすOrganizationすべての参加者です。
+Organizationに関係なく、メインのメールアドレスが表示されます。
+参加者以外に、Workspaceに紐付けられる、Podioサービス外にいる人もContactと呼びますが、まったく違う意味です。</p>
+
+<h2>Calendar</h2>
+
+<p>Calendarは時間の入っているオブジェクト(意味は後述)をカレンダー形式で表示するものです。</p>
+
+<h2>Task</h2>
+
+<p>Tasksは自分に割り当てられているタスクです。
+Podioでは、ほとんどすべてのオブジェクトにTaskを割り当てることができます。割り当てたタスクは、別のオブジェクトに付け替える、または参照するオブジェクトをなくすことができます。</p>
+
+<h2>Status</h2>
+
+<p>Statusは任意のWorkspaceに書き込める発言です。
+Facebookの書き込みと似ています。</p>
+
+<h2>Comment</h2>
+
+<p>Commentはオブジェクトに対して書き込めるコメントです。
+Status, Taskなどの他、コメントが付けられる設定をしたオブジェクトにはすべてコメントを書くことができます。</p>
+
+<h2>Like</h2>
+
+<p>Facebookのいいね！と似ています。
+ほとんどすべてのオブジェクトにLikeを付けることができます。</p>
+
+<h2>Contact</h2>
+
+<p>Contact(関係者)とは異なり、どちらかというと会社の外側にいる顧客などを指します。
+Workspaceに紐付けられます。
+逆に言うとWorkspaceを超えることはできません。</p>
+
+<h2>Files</h2>
+
+<p>WorkspaceやTask、StatusなどにFileをアップロードすることができます。</p>
+
+<h2>App</h2>
+
+<p>Podioでは、利用者が独自の形式を持つデータを作ることができます。
+そのように定義されたデータをAppと呼びます。
+Appは自分で作る以外に、App Marketと呼ばれるページにある、すでに作られたものを利用することができます。
+AppはWorkspaceに対してインストールして利用します。</p>
+
+<h2>オブジェクト</h2>
+
+<p>オブジェクトはPodioの正式な用語ではありませんが、Status, Task, Contact, Appデータなどのデータの単位です。
+この単位で、コメント、Like、Taskなどを付けることができます。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Podioへのサインアップ・ログイン]]></title>
