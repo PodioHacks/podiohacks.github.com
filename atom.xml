@@ -4,7 +4,7 @@
   <title><![CDATA[Podio Hacks]]></title>
   <link href="http://PodioHacks.github.com/atom.xml" rel="self"/>
   <link href="http://PodioHacks.github.com/"/>
-  <updated>2013-04-14T17:41:04+09:00</updated>
+  <updated>2013-04-14T17:42:20+09:00</updated>
   <id>http://PodioHacks.github.com/</id>
   <author>
     <name><![CDATA[CHIKURA Shinsaku]]></name>
@@ -128,7 +128,7 @@ AppはWorkspaceに対してインストールして利用します。</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[PodioHacksへようこそ]]></title>
+    <title type="html"><![CDATA[Podio Hacksへようこそ]]></title>
     <link href="http://PodioHacks.github.com/2013/04/hello-podiohacks/"/>
     <updated>2013-04-05T00:46:00+09:00</updated>
     <id>http://PodioHacks.github.com/2013/04/hello-podiohacks</id>
