@@ -4,7 +4,7 @@
   <title><![CDATA[Podio Hacks]]></title>
   <link href="http://PodioHacks.github.com/atom.xml" rel="self"/>
   <link href="http://PodioHacks.github.com/"/>
-  <updated>2013-04-14T17:40:00+09:00</updated>
+  <updated>2013-04-14T17:41:04+09:00</updated>
   <id>http://PodioHacks.github.com/</id>
   <author>
     <name><![CDATA[CHIKURA Shinsaku]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Podioに出てくる用語]]></title>
-    <link href="http://PodioHacks.github.com/blog/2013/04/glossary/"/>
+    <link href="http://PodioHacks.github.com/2013/04/glossary/"/>
     <updated>2013-04-05T21:29:00+09:00</updated>
-    <id>http://PodioHacks.github.com/blog/2013/04/glossary</id>
+    <id>http://PodioHacks.github.com/2013/04/glossary</id>
     <content type="html"><![CDATA[<p>Podioの中に出てくる用語を説明します。</p>
 
 <!-- more -->
@@ -99,9 +99,9 @@ AppはWorkspaceに対してインストールして利用します。</p>
   
   <entry>
     <title type="html"><![CDATA[Podioへのサインアップ・ログイン]]></title>
-    <link href="http://PodioHacks.github.com/blog/2013/04/getting-started/"/>
+    <link href="http://PodioHacks.github.com/2013/04/getting-started/"/>
     <updated>2013-04-05T19:28:00+09:00</updated>
-    <id>http://PodioHacks.github.com/blog/2013/04/getting-started</id>
+    <id>http://PodioHacks.github.com/2013/04/getting-started</id>
     <content type="html"><![CDATA[<p>Podioのサインアップ・ログイン方法を説明します。</p>
 
 <!-- more -->
@@ -129,9 +129,9 @@ AppはWorkspaceに対してインストールして利用します。</p>
   
   <entry>
     <title type="html"><![CDATA[PodioHacksへようこそ]]></title>
-    <link href="http://PodioHacks.github.com/blog/2013/04/hello-podiohacks/"/>
+    <link href="http://PodioHacks.github.com/2013/04/hello-podiohacks/"/>
     <updated>2013-04-05T00:46:00+09:00</updated>
-    <id>http://PodioHacks.github.com/blog/2013/04/hello-podiohacks</id>
+    <id>http://PodioHacks.github.com/2013/04/hello-podiohacks</id>
     <content type="html"><![CDATA[<p>Podio Hacksは、日本ではまだあまり知られていないタスク管理ツール<a href="http://podio.com">Podio</a>を使い倒すための日本語情報を発信するブログです。</p>
 ]]></content>
   </entry>
