@@ -4,7 +4,7 @@
   <title><![CDATA[Podio Hacks]]></title>
   <link href="http://PodioHacks.github.com/atom.xml" rel="self"/>
   <link href="http://PodioHacks.github.com/"/>
-  <updated>2013-04-06T20:49:39+09:00</updated>
+  <updated>2013-04-14T17:31:44+09:00</updated>
   <id>http://PodioHacks.github.com/</id>
   <author>
     <name><![CDATA[CHIKURA Shinsaku]]></name>
@@ -19,6 +19,9 @@
     <updated>2013-04-05T21:29:00+09:00</updated>
     <id>http://PodioHacks.github.com/blog/2013/04/glossary</id>
     <content type="html"><![CDATA[<p>Podioの中に出てくる用語を説明します。</p>
+
+<!-- more -->
+
 
 <h2>Organization / 組織</h2>
 
@@ -99,7 +102,12 @@ AppはWorkspaceに対してインストールして利用します。</p>
     <link href="http://PodioHacks.github.com/blog/2013/04/getting-started/"/>
     <updated>2013-04-05T19:28:00+09:00</updated>
     <id>http://PodioHacks.github.com/blog/2013/04/getting-started</id>
-    <content type="html"><![CDATA[<h2>ログイン</h2>
+    <content type="html"><![CDATA[<p>Podioのサインアップ・ログイン方法を説明します。</p>
+
+<!-- more -->
+
+
+<h2>ログイン</h2>
 
 <p>Podioを利用するにはユーザ登録が必要です。ユーザ登録はPodioでサインアップして作ることができます。それ以外にも、Google、Facebook、Microsoft Live, GoToMeetingを使ってログインすることができます。</p>
 
