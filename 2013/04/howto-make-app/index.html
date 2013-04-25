@@ -5,12 +5,13 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Whoops I couldn't find that page - Podio Hacks</title>
+  <title>Appを作る - Podio Hacks</title>
   <meta name="author" content="CHIKURA Shinsaku">
 
   
-  <meta name="description" content="Whoops I Couldn't Find That Page You may want to try a search above, or visit the homepage. Also, here are some recent posts: Appを作る
-Apr 26 2013 &hellip;">
+  <meta name="description" content="PodioではAppと呼ばれる仕組みを使って、取り扱うデータを拡張することができます。
+Appは、データベースで言うところのテーブルにあたるものです。
+AppはWorkspaceにいくつでも設定できます。 以下はその作成方法です。 Appを作成 WorkspaceのメニューからAdd &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +20,7 @@ Apr 26 2013 &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://PodioHacks.github.com/404.html">
+  <link rel="canonical" href="http://PodioHacks.github.com/2013/04/howto-make-app/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -76,61 +77,135 @@ Apr 26 2013 &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Whoops I Couldn't Find That Page</h1>
+    
+      <h1 class="entry-title">Appを作る</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-26T08:00:00+09:00" pubdate data-updated="true">2013/04/26</time>
+        
+      </p>
     
   </header>
-  
-  <p>You may want to try a search above, or <a href="/">visit the homepage</a>.</p>
-
-<p>Also, here are some recent posts:</p>
-
-<div id="blog-archives" class="missing">
-  
-  <article>
-    
-<h1><a href="/2013/04/howto-make-app/">Appを作る</a></h1>
-<time datetime="2013-04-26T08:00:00+09:00" pubdate><span class='month'>Apr</span> <span class='day'>26</span> <span class='year'>2013</span></time>
 
 
-  </article>
-  
-  <article>
-    
-<h1><a href="/2013/04/glossary/">Podioに出てくる用語</a></h1>
-<time datetime="2013-04-05T21:29:00+09:00" pubdate><span class='month'>Apr</span> <span class='day'>05</span> <span class='year'>2013</span></time>
+<div class="entry-content"><p>PodioではAppと呼ばれる仕組みを使って、取り扱うデータを拡張することができます。
+Appは、データベースで言うところのテーブルにあたるものです。
+AppはWorkspaceにいくつでも設定できます。</p>
+
+<p>以下はその作成方法です。</p>
+
+<!-- more -->
 
 
-  </article>
-  
-  <article>
-    
-<h1><a href="/2013/04/getting-started/">Podioへのサインアップ・ログイン</a></h1>
-<time datetime="2013-04-05T19:28:00+09:00" pubdate><span class='month'>Apr</span> <span class='day'>05</span> <span class='year'>2013</span></time>
+<h3>Appを作成</h3>
+
+<p>WorkspaceのメニューからAdd Appを選びます。</p>
+
+<p><img src="/images/20130426070553.png" alt="Add App" /></p>
+
+<p>既存のAppを利用するか、新しくAppを作るかを選択します。
+今回は新しくAppを作る方を選択します。
+「Go to the App Builder」をクリックします。</p>
+
+<p><img src="/images/20130426070838.png" alt="App Builder" /></p>
+
+<h3>名前を決める</h3>
+
+<p>Appの名前を決めます。
+左側がApp名、右側がAppのレコードに付ける名前です。
+App名は英語の複数形、レコード名はその単数表記がよいでしょう。
+日本語でも大丈夫です。</p>
+
+<p><img src="/images/20130426071008.png" alt="Name App" /></p>
+
+<h3>データ構造を決める</h3>
+
+<p>Appは複数のデータフィールドを持つことができます。
+Buildブロックから右側にフィールドをドラッグ＆ドロップしてデータフィールドを作成します。</p>
+
+<p><img src="/images/20130426071056.png" alt="Fields" /></p>
+
+<p>データフィールドは以下の通りです。</p>
+
+<p>
+<table>
+  <tr><th>Text</th><td>文字列型。単一行か複数行かを選択可能</td></tr>
+  <tr><th>Contact</th><td>コンタクト型。人の情報を載せる</td></tr>
+  <tr><th>Category</th><td>選択肢型。一つまたは複数を保持するかを設定可能</td></tr>
+  <tr><th>Date</th><td>日付型</td></tr>
+  <tr><th>Link</th><td>リンク型</td></tr>
+  <tr><th>Image</th><td>画像型</td></tr>
+  <tr><th>Google Maps</th><td>位置型</td></tr>
+  <tr><th>Question</th><td>質問型</td></tr>
+  <tr><th>Number</th><td>数値型</td></tr>
+  <tr><th>Money</th><td>通貨型</td></tr>
+  <tr><th>Duration</th><td>期間型</td></tr>
+  <tr><th>Progress Bar</th><td>進捗状況型</td></tr>
+  <tr><th>Calculation</th><td>計算型(?)</td></tr>
+  <tr><th>App reference</th><td>他のアプリケーションへの参照型(重要)</td></tr>
+</table>
+</p>
 
 
-  </article>
-  
-  <article>
-    
-<h1><a href="/2013/04/hello-podiohacks/">Podio Hacksへようこそ</a></h1>
-<time datetime="2013-04-05T00:46:00+09:00" pubdate><span class='month'>Apr</span> <span class='day'>05</span> <span class='year'>2013</span></time>
+<p>App referenceは、他のアプリケーションへの参照を作れるフィールドです。</p>
 
+<h3>Typeを決める</h3>
 
-  </article>
-  
+<p>Appは、通常のもののほかに、イベント型を定義することができます。
+イベント型は、参加者が参加する・しない、といった反応を保持できます。</p>
+
+<p><img src="/images/20130426072557.png" alt="Type" /></p>
+
+<h3>完成</h3>
+
+<p>Save Appを押せば完成です。</p>
 </div>
 
 
-  
-    <footer>
+  <footer>
+    <p class="meta">
       
-      
-        <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://PodioHacks.github.com/404.html" data-via="PodioHacks" data-counturl="http://PodioHacks.github.com/404.html" >Tweet</a>
+
+<span class="byline author vcard">Posted by <span class="fn">CHIKURA Shinsaku</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-26T08:00:00+09:00" pubdate data-updated="true">2013/04/26</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://PodioHacks.github.com/2013/04/howto-make-app/" data-via="PodioHacks" data-counturl="http://PodioHacks.github.com/2013/04/howto-make-app/" >Tweet</a>
   
   
   
@@ -138,9 +213,14 @@ Apr 26 2013 &hellip;">
   
 </div>
 
+    
+    <p class="meta">
       
-    </footer>
-  
+        <a class="basic-alignment left" href="/2013/04/glossary/" title="Previous Post: Podioに出てくる用語">&laquo; Podioに出てくる用語</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>

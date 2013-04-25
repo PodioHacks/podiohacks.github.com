@@ -4,7 +4,7 @@
   <title><![CDATA[Podio Hacks]]></title>
   <link href="http://PodioHacks.github.com/atom.xml" rel="self"/>
   <link href="http://PodioHacks.github.com/"/>
-  <updated>2013-04-14T17:42:20+09:00</updated>
+  <updated>2013-04-26T07:33:55+09:00</updated>
   <id>http://PodioHacks.github.com/</id>
   <author>
     <name><![CDATA[CHIKURA Shinsaku]]></name>
@@ -12,6 +12,85 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Appを作る]]></title>
+    <link href="http://PodioHacks.github.com/2013/04/howto-make-app/"/>
+    <updated>2013-04-26T08:00:00+09:00</updated>
+    <id>http://PodioHacks.github.com/2013/04/howto-make-app</id>
+    <content type="html"><![CDATA[<p>PodioではAppと呼ばれる仕組みを使って、取り扱うデータを拡張することができます。
+Appは、データベースで言うところのテーブルにあたるものです。
+AppはWorkspaceにいくつでも設定できます。</p>
+
+<p>以下はその作成方法です。</p>
+
+<!-- more -->
+
+
+<h3>Appを作成</h3>
+
+<p>WorkspaceのメニューからAdd Appを選びます。</p>
+
+<p><img src="http://PodioHacks.github.com/images/20130426070553.png" alt="Add App" /></p>
+
+<p>既存のAppを利用するか、新しくAppを作るかを選択します。
+今回は新しくAppを作る方を選択します。
+「Go to the App Builder」をクリックします。</p>
+
+<p><img src="http://PodioHacks.github.com/images/20130426070838.png" alt="App Builder" /></p>
+
+<h3>名前を決める</h3>
+
+<p>Appの名前を決めます。
+左側がApp名、右側がAppのレコードに付ける名前です。
+App名は英語の複数形、レコード名はその単数表記がよいでしょう。
+日本語でも大丈夫です。</p>
+
+<p><img src="http://PodioHacks.github.com/images/20130426071008.png" alt="Name App" /></p>
+
+<h3>データ構造を決める</h3>
+
+<p>Appは複数のデータフィールドを持つことができます。
+Buildブロックから右側にフィールドをドラッグ＆ドロップしてデータフィールドを作成します。</p>
+
+<p><img src="http://PodioHacks.github.com/images/20130426071056.png" alt="Fields" /></p>
+
+<p>データフィールドは以下の通りです。</p>
+
+<p>
+<table>
+  <tr><th>Text</th><td>文字列型。単一行か複数行かを選択可能</td></tr>
+  <tr><th>Contact</th><td>コンタクト型。人の情報を載せる</td></tr>
+  <tr><th>Category</th><td>選択肢型。一つまたは複数を保持するかを設定可能</td></tr>
+  <tr><th>Date</th><td>日付型</td></tr>
+  <tr><th>Link</th><td>リンク型</td></tr>
+  <tr><th>Image</th><td>画像型</td></tr>
+  <tr><th>Google Maps</th><td>位置型</td></tr>
+  <tr><th>Question</th><td>質問型</td></tr>
+  <tr><th>Number</th><td>数値型</td></tr>
+  <tr><th>Money</th><td>通貨型</td></tr>
+  <tr><th>Duration</th><td>期間型</td></tr>
+  <tr><th>Progress Bar</th><td>進捗状況型</td></tr>
+  <tr><th>Calculation</th><td>計算型(?)</td></tr>
+  <tr><th>App reference</th><td>他のアプリケーションへの参照型(重要)</td></tr>
+</table>
+</p>
+
+
+<p>App referenceは、他のアプリケーションへの参照を作れるフィールドです。</p>
+
+<h3>Typeを決める</h3>
+
+<p>Appは、通常のもののほかに、イベント型を定義することができます。
+イベント型は、参加者が参加する・しない、といった反応を保持できます。</p>
+
+<p><img src="http://PodioHacks.github.com/images/20130426072557.png" alt="Type" /></p>
+
+<h3>完成</h3>
+
+<p>Save Appを押せば完成です。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Podioに出てくる用語]]></title>
