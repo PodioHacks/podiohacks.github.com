@@ -4,7 +4,7 @@
   <title><![CDATA[Podio Hacks]]></title>
   <link href="http://PodioHacks.github.com/atom.xml" rel="self"/>
   <link href="http://PodioHacks.github.com/"/>
-  <updated>2013-04-26T07:33:55+09:00</updated>
+  <updated>2013-04-26T21:17:05+09:00</updated>
   <id>http://PodioHacks.github.com/</id>
   <author>
     <name><![CDATA[CHIKURA Shinsaku]]></name>
@@ -203,6 +203,10 @@ AppはWorkspaceに対してインストールして利用します。</p>
 <p>登録時にgmail.comを入力すると、Googleのサービスと連携するかどうかを聞かれます。連動する場合はConnectをクリックし、Googleアカウント側からPodioとの連動を設定します。</p>
 
 <p><img src="http://PodioHacks.github.com/images/google-connect.png" alt="Googleサービスとの接続" /></p>
+
+<h3>サインアップURL</h3>
+
+<p><a href="http://bit.ly/podio-signup">こちら</a> からサインアップすると私に何かいいことが起きるらしいので、やってみてください。(笑)</p>
 ]]></content>
   </entry>
   
